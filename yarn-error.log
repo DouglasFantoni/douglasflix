@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /opt/dart-sass:/home/douglas/anaconda3/bin:/home/douglas/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-13-oracle/bin:/usr/lib/jvm/java-13-oracle/db/bin:/usr/lib/jvm/java-8-openjdk-amd64:~/Android/Sdk/platform-tools:~/Android/Sdk/tools:/opt/android-studio/gradle/gradle-4.10.1/bin:~/.npm-global/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/unimodules-file-system-interface/-/unimodules-file-system-interface-5.2.1.tgz: Request failed "503 Service Unavailable"
+      at ResponseError.ExtendableBuiltin (/usr/share/yarn/lib/cli.js:696:66)
+      at new ResponseError (/usr/share/yarn/lib/cli.js:802:124)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:67057:16)
+      at Request.emit (events.js:315:20)
+      at Request.module.exports.Request.onRequestResponse (/usr/share/yarn/lib/cli.js:141625:10)
+      at ClientRequest.emit (events.js:315:20)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:596:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17)
+      at HTTPParser.execute (<anonymous>)
+      at TLSSocket.socketOnData (_http_client.js:469:22)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~38.0.8",
+      "expo-status-bar": "^1.0.2",
+      "react": "~16.11.0",
+      "react-dom": "~16.11.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.6",
+      "babel-preset-expo": "~8.1.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
